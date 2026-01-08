@@ -1,27 +1,40 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   background-color: #ffffff;
   margin: 0;
-  padding: 20px;
+  padding: 0;
 }
 
-.quote-container {
+.quote-wrapper {
+  width: 100%;
   text-align: center;
+  padding-top: 10px;
 }
 
-.title {
+/* Quote of the Day */
+.quote-title {
   color: #003399;
+  font-size: 16px;
+  font-style: italic;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
+/* Good Afternoon */
 .greeting {
   color: #003399;
+  font-size: 14px;
   font-style: italic;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
+/* Quote text */
 .quote-text {
-  margin-top: 15px;
+  color: #000000;
+  font-size: 14px;
   font-style: italic;
   font-weight: bold;
+  max-width: 900px;
+  margin: 0 auto;
 }
