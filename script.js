@@ -48,3 +48,4 @@ document.getElementById("greeting").innerText = getGreeting();
 document.getElementById("quote").innerText = getQuoteOfTheDay();
 
 
+
