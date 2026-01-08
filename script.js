@@ -21,17 +21,16 @@ const quotes = [
   `"Excellence is achieved through focus, effort, and integrity."`
 ];
 
-// Greeting based on time
+// Greeting by time
 function getGreeting() {
   const hour = new Date().getHours();
-
   if (hour < 12) return "Good Morning";
   if (hour < 17) return "Good Afternoon";
   if (hour < 21) return "Good Evening";
   return "Good Night";
 }
 
-// Daily quote logic
+// One quote per day
 function getQuoteOfTheDay() {
   const today = new Date().toDateString();
   const savedDate = localStorage.getItem("quoteDate");
@@ -41,10 +40,11 @@ function getQuoteOfTheDay() {
     localStorage.setItem("dailyQuote", quotes[index]);
     localStorage.setItem("quoteDate", today);
   }
-
   return localStorage.getItem("dailyQuote");
 }
 
 // Set content
 document.getElementById("greeting").innerText = getGreeting();
 document.getElementById("quote").innerText = getQuoteOfTheDay();
+
+
