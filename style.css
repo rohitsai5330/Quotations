@@ -1,6 +1,6 @@
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background-color: #ffffff;
+  background-color: #003399#ffffff;
 }
 
 .quote-box {
@@ -9,7 +9,7 @@ body {
 
 .title {
   text-align: center;
-  color: #003399;
+  color: #ffffff;
   font-weight: bold;
   font-style: italic;
 }
@@ -26,3 +26,4 @@ body {
   color: #003399;
   font-style: italic;
 }
+
