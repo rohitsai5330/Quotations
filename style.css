@@ -34,7 +34,7 @@ body {
 
 .quote-box {
   padding: 15px;
-  background-color: #003399;   /* Ensure section is blue */
+  background-color: #093C71;   /* Ensure section is blue */
 }
 
 .title {
@@ -56,4 +56,5 @@ body {
   color: #ffffff;              /* White text */
   font-style: italic;
 }
+
 
