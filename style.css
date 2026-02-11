@@ -1,29 +1,58 @@
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background-color: #003399#ffffff;
+  background-color: #003399;   /* Blue background */
 }
 
 .quote-box {
   padding: 15px;
+  background-color: #003399;   /* Ensure section is blue */
 }
 
 .title {
   text-align: center;
-  color: #ffffff;
+  color: #ffffff;              /* White text */
   font-weight: bold;
   font-style: italic;
 }
 
 .greeting {
   margin-top: 10px;
-  color: #003399;
+  color: #ffffff;              /* White text */
   font-weight: bold;
   font-style: italic;
 }
 
 .quote {
   margin-top: 6px;
-  color: #003399;
+  color: #ffffff;              /* White text */
+  font-style: italic;
+}
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #003399;   /* Blue background */
+}
+
+.quote-box {
+  padding: 15px;
+  background-color: #003399;   /* Ensure section is blue */
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;              /* White text */
+  font-weight: bold;
   font-style: italic;
 }
 
+.greeting {
+  margin-top: 10px;
+  color: #ffffff;              /* White text */
+  font-weight: bold;
+  font-style: italic;
+}
+
+.quote {
+  margin-top: 6px;
+  color: #ffffff;              /* White text */
+  font-style: italic;
+}
